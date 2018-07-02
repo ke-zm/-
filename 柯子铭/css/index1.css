@@ -1,0 +1,177 @@
+@font-face {font-family: 'iconfont';
+    src: url('iconfont.eot'); /* IE9*/
+    src: url('iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('iconfont.woff') format('woff'), /* chrome、firefox */
+    url('iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+.by_all{
+    /* width: 100%; */
+    max-width: 640px;
+    min-width: 320px;
+    /* height: ; */
+    background: #F3F3F3;
+}
+.by_header{
+    width: 100%;
+    max-width: 640px;
+    min-width: 320px;
+    height: 40px;
+    background: #FF0000;
+    position: fixed;
+    z-index: 999;
+}
+.by_header p{
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #FFE0E0;   
+}
+.by_header a{
+    color: #FFE0E0; 
+    height: 40px;
+    line-height: 40px;
+    margin-left: 10px;
+    font-size: 24px;
+}
+.by_banner{
+    width: 100%;
+    position: relative;
+}
+.by_banner .logo{
+    width: 100%;
+    position: absolute;
+    top: 26%;
+}
+.by_banner .logo img{
+    width: 24%;
+    position: absolute;
+    left: 7%;
+}
+.by_banner p{
+    position: absolute;
+    color: #FFE0E0; 
+    top: 30%;
+    left: 33%;
+}
+.by_banner .fan{
+    color: #FFE0E0; 
+    height: 40px;
+    line-height: 40px;
+    position: absolute;
+    top: 38%;
+    right: 4%; 
+    font-size: 24px;
+}
+.by_banner .a,.b,.c{
+    width: 5%;
+    height: 8%;
+    border-radius: 25%;
+    position: absolute;
+    top: 49%;
+    left: 33%;
+}
+.by_banner .a{
+    background:#FF0000 url(../images/shop_vip.png);
+    background-size: 100% 100%;
+}
+.by_banner .b{
+    position: absolute;
+    left: 39%;
+    background:#FF0000 url(../images/shop_silver.png);
+    background-size: 100% 100%;
+}
+.by_banner .c{
+    position: absolute;
+    left: 45%;
+    background:#FF0000 url(../images/shop_umbrella.png);
+    background-size: 100% 100%;
+}
+.by_bannerImg{
+    /* background: -webkit-radial-gradient(left,#E9FABE,#A5D4CD,#6FB7E1); */
+    width: 100%;
+}
+.by_bannerImg img{
+    width: 100%;
+}
+.by_banner .tip{
+    background: #5896B4;
+    width: 100%;
+    /* height: 25%; */
+}
+.tip li{
+    float: left;
+    display: block;
+    width: 32.2%;
+    margin: 2% 0;
+    text-align: center;
+    color: #FFE0E0;
+}
+.tip span{
+    float: left;
+    height: 34px;
+    width: 2px;
+    margin: 2% 0;
+    margin-left: 3px;
+    background: #FFE0E0;
+}
+/*  */
+/*  */
+.by_list{
+    width: 100%;
+    background: #FFFFFF;
+}
+.content li{
+    float: left;
+    width: 33.3%;
+    text-align: center;
+    padding-top: 4%;
+    box-shadow: 2px 1px 8px #b9b3b3;
+}
+.content li img{
+    width: 33%;
+    /* height: 50%; */
+}
+
+/*  */
+/* 底部 */
+.by_footer{
+    width: 100%;
+    margin-top: 3%;
+    max-width: 640px;
+}
+.by_footer img{
+    width: 100%;
+    padding-bottom: 18%;
+}
+/*  */
+/*  */
+.by_b_nav{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    max-width: 640px;
+    min-width: 320px;
+}
+.by_b_nav li{
+    background: white;
+    float: left;
+    /* display: inline-block; */
+    width: 25%;
+    text-align: center;
+    padding-top: 2%;
+}
+.by_b_nav i{
+    font-size: 22px;
+}

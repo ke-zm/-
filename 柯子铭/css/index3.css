@@ -1,0 +1,80 @@
+.user_all{
+    width: 100%;
+    max-width: 640px;
+    min-width: 320px;
+    /* background: #666; */
+}
+/*  */
+/* 头部 */
+.user_header{
+    width: 100%;
+    max-width: 640px;
+    height: 42px;
+    background: #0099FF;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+.user_header span{
+    position: absolute;
+    top: 8px;
+    left: 30px;
+    font-size: 18px;
+    color: #FFE0E0; 
+}
+.user_header p{
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #FFE0E0;   
+}
+/*  */
+/* 分类 */
+.user_list{
+    width: 100%;
+    position: relative;
+    background-color: #FFE0E0;  
+}
+.list{
+    margin-top: 48px;
+}
+.list input{
+    /* border-style: none; */
+    width: 50%;
+    height: 40px;
+    font-size: 16px;
+    margin-left: 2%;
+
+}
+.list .btn{
+    width: 26%;
+    font-size: 13px;
+}
+.list li{
+    width: 100%;
+    /* background: #0099FF; */
+    display: block;
+    /* padding: 2% 0; */
+    border-bottom: 1px solid #666;
+    font-size: 16px;
+    padding: 12px 0;
+}
+/*  */
+/* 底下按钮 */
+.confirm{
+    width: 100%;
+    background: rgb(252, 149, 13);
+    text-align: center;
+    margin-top: 3%;
+}
+.confirm a{
+    color: #FFE0E0;
+    font-size: 20px;
+    display: inline-block;
+    
+    padding: 10px 0;
+}
+/*  */
+ 

@@ -1,0 +1,55 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    /* 盒模型 */
+    /* 标准模型 */
+    /* box-sizing: content-box; */
+
+    /* ie标准模型 */
+    box-sizing: border-box;
+    /* 移动端的点击高亮效果*/
+    -webkit-tap-highlight-color: transparent;
+}
+a,
+a:hover{
+    color: #666;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+body{
+    font-family: "微软雅黑",sans-serif;
+    font-size: 13px;
+}
+input{
+    /* 清除焦点时的边框阴影 */
+    outline: none;
+    /* 添加边框 */
+    border: 1px solid #ccc;
+}
+
+/* 浮动样式 */
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clearfix::before,
+.clearfix::after{
+    /* 生成内容为空 */
+    content: "";   
+    /* 块级元素 */
+    display: block;
+    height: 0;
+    line-height: 0px;
+    /* 清除前面元素浮动带来的影响 */
+    clear: both;
+    visibility: hidden;
+    /* 隐藏元素，但元素会占据空间 */
+}
+img{
+    /* display: block; */
+    vertical-align: bottom;
+}

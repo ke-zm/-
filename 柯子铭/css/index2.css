@@ -1,0 +1,90 @@
+.user_all{
+    width: 100%;
+    max-width: 640px;
+    min-width: 320px;
+    /* height: ; */
+    background: #F3F3F3;
+}
+.user_header{
+    width: 100%;
+    max-width: 640px;
+    height: 42px;
+    background: #0099FF;
+    position: fixed;
+    z-index: 999;
+}
+.user_header p{
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #FFE0E0;   
+}
+/*  */
+.user_login{
+    width: 100%;
+    position: relative;
+}
+.user_login img{
+    width: 100%;
+    margin-top: 41px;
+}
+.user_login a{
+    position: absolute;
+    left: 50%;
+    top: 76%;
+    transform: translate(-50%,-50%);
+    color: #FFE0E0;
+    font-size: 16px;
+}
+.user_login .d{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color: rgb(29, 26, 26);
+    font-size: 40px;
+}
+/*  */
+.user_list{
+    width: 100%;
+    margin-top: 2%;
+}
+.list li{
+    width: 100%;
+    /* background: #0099FF; */
+    display: block;
+    /* padding: 2% 0; */
+    border-bottom: 1px solid #666;
+}
+.list li a{
+    width: 100%;
+    font-size: 18px;
+    padding: 2% 0;
+    padding-left: 3%;
+    display: inline-block;
+
+}
+.list li i{
+    margin-left: 60%;
+}
+/*  */
+/*  */
+.user_nav{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    max-width: 640px;
+}
+.user_nav li{
+    background: white;
+    float: left;
+    /* display: inline-block; */
+    width: 33%;
+    text-align: center;
+    padding-top: 2%;
+}
+.user_nav i{
+    font-size: 22px;
+}
