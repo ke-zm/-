@@ -1,0 +1,35 @@
+1.git init  初始化仓库
+
+2.// 配置用户、邮箱
+  git config --global  user.name  '用户名'
+  git config --global user.email  '邮箱名' 
+ // 删除  git config --global  --unset user.name
+
+3.git add .     添加文件到暂存区  （仓库门口）
+
+4.git commit -m ''  提交到工作区  （仓库）
+
+5.git commit --all -m ''  (3、4步合并) all表示把所有修改的文件提交到版本库
+
+6.git status  查看状态(是否修改、提交等)
+
+7.git log
+   git log --oneline
+   git log -3
+   git reflog
+  查看日志
+
+8.git reset --hard Head~0 (Head^)
+  git reset --hard 版本号信息  
+ 版本回退
+
+9.git branch 分支名   // 新建分支
+   git  branch -d 分支名  // 删除分支  -D 强制删除  （不能自己杀死自己）
+
+10.git checkout 分支名  // 切换分支
+
+11.git merge (dev)  // 合并分支
+   // 若遇到冲突，需要手动处理冲突
+   // 要合并2次master
+
+
